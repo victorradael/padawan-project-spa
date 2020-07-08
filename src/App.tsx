@@ -1,12 +1,10 @@
 import React from "react";
 
-import Routes from "./routes";
-import NavBar from "./components/NavBar";
+import Layout from "./pages/Layout";
 
 const App: React.FC = () => (
   <>
-    <NavBar />
-    <Routes />
+    <Layout />
   </>
 );
 export default App;

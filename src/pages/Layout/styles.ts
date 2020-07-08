@@ -24,12 +24,19 @@ export const TopBar = styled.nav`
     padding: 16px;
     width: 100%;
 
-    a {
+    button {
       text-decoration: none;
       text-align: center;
       margin: 4px 24px;
       border-bottom: solid 2px transparent;
       font-weight: bold;
+      background: transparent;
+      border: none;
+
+      &:focus {
+        box-shadow: 0 0 0;
+        outline: none;
+      }
 
       color: #333;
       transition: 0.5s;
